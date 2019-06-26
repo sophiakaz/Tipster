@@ -15,6 +15,7 @@
 		778EA2DE22C2C48300FBCCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778EA2DD22C2C48300FBCCA0 /* main.m */; };
 		778EA2E822C2C48300FBCCA0 /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778EA2E722C2C48300FBCCA0 /* TipsterTests.m */; };
 		778EA2F322C2C48300FBCCA0 /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778EA2F222C2C48300FBCCA0 /* TipsterUITests.m */; };
+		778EA30222C2D98700FBCCA0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778EA30122C2D98700FBCCA0 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		778EA2EE22C2C48300FBCCA0 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778EA2F222C2C48300FBCCA0 /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		778EA2F422C2C48300FBCCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778EA30022C2D98700FBCCA0 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		778EA30122C2D98700FBCCA0 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				778EA2D122C2C48200FBCCA0 /* ViewController.h */,
 				778EA2D222C2C48200FBCCA0 /* ViewController.m */,
 				778EA2D422C2C48200FBCCA0 /* Main.storyboard */,
+				778EA30022C2D98700FBCCA0 /* SettingsViewController.h */,
+				778EA30122C2D98700FBCCA0 /* SettingsViewController.m */,
 				778EA2D722C2C48300FBCCA0 /* Assets.xcassets */,
 				778EA2D922C2C48300FBCCA0 /* LaunchScreen.storyboard */,
 				778EA2DC22C2C48300FBCCA0 /* Info.plist */,
@@ -265,6 +270,7 @@
 				778EA2D322C2C48200FBCCA0 /* ViewController.m in Sources */,
 				778EA2DE22C2C48300FBCCA0 /* main.m in Sources */,
 				778EA2D022C2C48200FBCCA0 /* AppDelegate.m in Sources */,
+				778EA30222C2D98700FBCCA0 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,12 +442,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
