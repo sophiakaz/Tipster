@@ -125,7 +125,7 @@
             </objects>
             <point key="canvasLocation" x="1022" y="120"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Settings-->
         <scene sceneID="LbN-2B-MFe">
             <objects>
                 <viewController id="5c5-TW-4Bw" customClass="SettingsViewController" sceneMemberID="viewController">
@@ -156,7 +156,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ayb-zp-bjK"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qbq-2v-Ypz"/>
+                    <navigationItem key="navigationItem" title="Settings" id="qbq-2v-Ypz"/>
                     <connections>
                         <outlet property="tipControl" destination="HoG-Or-HcA" id="ZO1-N7-8SY"/>
                     </connections>
